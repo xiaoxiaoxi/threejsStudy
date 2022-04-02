@@ -1,0 +1,20 @@
+{
+  "name": "aviator",
+  "version": "1.0.0",
+  "description": "",
++  "private": true,
+  "scripts": {
++    "start": "webpack serve --open",
++    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "three": "^0.138.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

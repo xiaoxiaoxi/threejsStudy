@@ -1,0 +1,17 @@
+
+* { margin: 0; }
+
+body {
+    color: #bbbbbb;
+    background: #333333;
+}
+
+#container {	
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background: linear-gradient(#e4e0ba, #f7d9aa); */
+    background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
